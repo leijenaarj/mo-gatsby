@@ -30,7 +30,10 @@ export const Header = ({ isHomepage }) => {
   return (
     <header className={`site-header ${homepageClass}`}>
       <Link to="/">
-        <div className="logo">Marry Overtoom</div>
+        <div className="logo">
+          <span className="firstname">Marry</span>
+          <span className="lastname">Overtoom</span>
+        </div>
       </Link>
       <nav>
         <ul>

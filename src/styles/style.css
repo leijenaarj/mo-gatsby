@@ -41,6 +41,20 @@ footer {
   font-weight: 900;
 }
 
+.site-header .logo .firstname{
+  color: #cfbe9b;
+  font-size: 60px;
+  vertical-align: top;
+}
+
+.site-header .logo .lastname{
+  color: #686664;
+  font-size: 30px;
+  font-style: italic;
+  vertical-align: top;
+  line-height: 2em;
+}
+
 .site-header nav {
   float: right;
 }
